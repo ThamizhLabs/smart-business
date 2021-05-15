@@ -1,0 +1,51 @@
+
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+
+<div id="mySidebar" class="sidebar">
+    <ul class="nav nav-tabs nav-list">
+        <li>
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-item icon-text">
+                <fa-icon class="sidebar-icon" [icon]="fahome"></fa-icon>Home
+            </a>
+        </li>
+        <!-- <li>
+            <a routerLink="/outwardorders" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-item icon-text">
+                <fa-icon class="sidebar-icon2" [icon]="fainvoice"></fa-icon>Sales
+            </a>
+        </li> -->
+        <li>
+            <a routerLink="/orders" routerLinkActive="active" class="nav-item icon-text">
+                <fa-icon class="sidebar-icon4" [icon]="fatruck"></fa-icon>Orders
+            </a>
+        </li>
+        <li>
+            <a routerLink="/inventory" routerLinkActive="active" class="nav-item icon-text">
+                <fa-icon class="sidebar-icon3" [icon]="facart"></fa-icon>Inventory
+            </a>
+        </li>
+        <li>
+            <a routerLink="/expenses" routerLinkActive="active" class="nav-item icon-text">
+                <fa-icon class="sidebar-icon6" [icon]="farupee"></fa-icon>Expenses
+            </a>
+        </li>
+        <li>
+            <a routerLink="/reports" routerLinkActive="active" class="nav-item icon-text">
+                <fa-icon class="sidebar-icon5" [icon]="fachart"></fa-icon>Reports
+            </a>
+        </li>
+    </ul>
+    
+
+  <!-- <a href="#"><span><i class="material-icons">info</i><span class="icon-text">about</span></a><br>
+  <a href="#"><i class="material-icons">spa</i><span class="icon-text"></span>services</a><br>
+  <a href="#"><i class="material-icons">monetization_on</i><span class="icon-text"></span>clients</span></a><br>
+  <a href="#"><i class="material-icons">email</i><span class="icon-text"></span>contact<span></a> -->
+</div>
+
+<div id="main">
+
+    <router-outlet></router-outlet>
+
+    <!-- <button class="btn btn-primary" (click)="ping()">Test Ping</button> -->
+
+</div>

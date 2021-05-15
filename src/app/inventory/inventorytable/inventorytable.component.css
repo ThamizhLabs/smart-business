@@ -1,0 +1,34 @@
+.tbl {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.table-striped > thead > tr > th {
+    background-color: #1E2734;
+ }
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #2E3744;
+ }
+
+ .table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+    background-color: #1E2734;
+ }
+
+ .emptymsg {
+     text-align: center;
+ }
+
+ .alertrow {
+    color:rgb(187, 47, 47) !important;
+    font-weight: bold !important;
+    
+}
+
+
+.addBtn {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
